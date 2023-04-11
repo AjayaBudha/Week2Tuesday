@@ -27,6 +27,7 @@ dinosaur.introduce();
 
 //inheritence
 class tireceratops extends Dino {
+  static extinct = false;
   constructor(name) {
     super(name, "Triceratops", "plants");
   }
